@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+set -euo pipefail
+PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$PROJECT_ROOT"
+if [ "${YUMATE_CONDA_ACTIVE:-0}" != "1" ]; then
+  export YUMATE_CONDA_ACTIVE=1
+  exec conda run -n "${YUMATE_CONDA_ENV:-yumate-vision}" --no-capture-output "$PROJECT_ROOT/yumate" "$@"
+fi
+if [ -x .tools/node/bin/node ]; then export PATH="$PROJECT_ROOT/.tools/node/bin:$PATH"; fi
+if [ -x .tools/cargo/bin/cargo ]; then
+  export PATH="$PROJECT_ROOT/.tools/cargo/bin:$PATH"
+  export CARGO_HOME="$PROJECT_ROOT/.tools/cargo" RUSTUP_HOME="$PROJECT_ROOT/.tools/rustup"
+fi
+export NO_PROXY="localhost,127.0.0.1,::1${NO_PROXY:+,$NO_PROXY}"
+export no_proxy="$NO_PROXY"
+export YUMATE_LOCAL_MOCKS=1
+case "${1:-help}" in
+  start)
+    [ -f .env ] || { echo '请按 docs/installation.md 创建 .env'; exit 1; }
+    set -a; source .env; set +a
+    if ! conda run -n yumate-vision pg_isready -h 127.0.0.1 -p 55433 -U yumate >/dev/null 2>&1; then
+      [ -f var/postgres/PG_VERSION ] || { mkdir -p var; conda run -n yumate-vision initdb -D "$PROJECT_ROOT/var/postgres" -U yumate --auth-local=trust --auth-host=trust; echo "timezone = 'UTC'" >> var/postgres/postgresql.conf; }
+      conda run -n yumate-vision pg_ctl -D "$PROJECT_ROOT/var/postgres" -l "$PROJECT_ROOT/var/postgres/server.log" -o '-p 55433 -h 127.0.0.1' start
+    fi
+    docker compose -f infra/docker-compose.yml up -d redis
+    corepack pnpm dev:start local-s3 mock-dealer mock-cabin mock-repair mock-insurance mock-tts runtime gateway worker vision-trainer cockpit mobile web
+    printf '\n驭伴已启动：控制台 http://localhost:5174 · 车机 http://localhost:1430 · 手机 http://localhost:1420\n'
+    ;;
+  stop)
+    corepack pnpm dev:stop local-s3 mock-dealer mock-cabin mock-repair mock-insurance mock-tts runtime gateway worker vision-trainer cockpit mobile web cockpit-app mobile-app
+    ;;
+  status) corepack pnpm dev:status ;;
+  *)
+    if [ "${1:-help}" = "help" ]; then echo 'YuMate（驭伴）：./yumate start | stop | status；其余参数转交 pnpm，例如 ./yumate typecheck'; else corepack pnpm "$@"; fi
+    ;;
+esac

@@ -1,0 +1,747 @@
+{
+  "fixture": true,
+  "mode": "real",
+  "metricsVersion": "M67",
+  "outcomes": [
+    {
+      "id": "o-01",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-02",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-03",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-04",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-05",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-06",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-07",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-08",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-09",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-10",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-11",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-12",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-01",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-02",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-03",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-04",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-05",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-06",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-07",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-08",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-09",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-10",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-11",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-12",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "b-01",
+      "scene": "boundary",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "b-02",
+      "scene": "boundary",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "b-03",
+      "scene": "boundary",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "b-04",
+      "scene": "boundary",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "b-05",
+      "scene": "boundary",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "b-06",
+      "scene": "boundary",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-13",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-14",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-15",
+      "scene": "ownership",
+      "status": "fail",
+      "latencyMs": 100,
+      "failures": [
+        "Synthetic regression failure"
+      ],
+      "reasons": []
+    },
+    {
+      "id": "o-16",
+      "scene": "ownership",
+      "status": "fail",
+      "latencyMs": 100,
+      "failures": [
+        "Synthetic regression failure"
+      ],
+      "reasons": []
+    },
+    {
+      "id": "o-17",
+      "scene": "ownership",
+      "status": "fail",
+      "latencyMs": 100,
+      "failures": [
+        "Synthetic regression failure"
+      ],
+      "reasons": []
+    },
+    {
+      "id": "o-18",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-19",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-20",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-21",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-22",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-23",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-24",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-25",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-26",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-27",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-28",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-29",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-30",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-31",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-32",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-33",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-34",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-35",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-36",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-37",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-38",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-39",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "o-40",
+      "scene": "ownership",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-13",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-14",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-15",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-16",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-17",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-18",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-19",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-20",
+      "scene": "service",
+      "status": "fail",
+      "latencyMs": 100,
+      "failures": [
+        "Synthetic regression failure"
+      ],
+      "reasons": []
+    },
+    {
+      "id": "s-21",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-22",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-23",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-24",
+      "scene": "service",
+      "status": "fail",
+      "latencyMs": 100,
+      "failures": [
+        "Synthetic regression failure"
+      ],
+      "reasons": []
+    },
+    {
+      "id": "s-25",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-26",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-27",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-28",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-29",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-30",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-31",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-32",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-33",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-34",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-35",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-36",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-37",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-38",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-39",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-40",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-41",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-42",
+      "scene": "service",
+      "status": "fail",
+      "latencyMs": 100,
+      "failures": [
+        "Synthetic regression failure"
+      ],
+      "reasons": []
+    },
+    {
+      "id": "s-43",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-44",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    },
+    {
+      "id": "s-45",
+      "scene": "service",
+      "status": "pass",
+      "latencyMs": 100,
+      "failures": [],
+      "reasons": []
+    }
+  ]
+}

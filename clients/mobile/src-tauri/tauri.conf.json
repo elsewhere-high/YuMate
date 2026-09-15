@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "驭伴",
+  "version": "0.1.0",
+  "identifier": "com.yumate.mobile",
+  "build": {
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:1420",
+    "beforeDevCommand": "corepack pnpm dev",
+    "beforeBuildCommand": "corepack pnpm build"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "驭伴 · YuMate",
+        "width": 420,
+        "height": 900,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/icon.png"
+    ],
+    "iOS": {
+      "frameworks": [
+        "AudioToolbox",
+        "CoreAudio",
+        "AVFoundation"
+      ],
+      "minimumSystemVersion": "14.0"
+    },
+    "license": "AGPL-3.0-only",
+    "shortDescription": "驭伴 YuMate 智能用车伙伴"
+  }
+}
